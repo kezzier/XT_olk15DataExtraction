@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/XT_olk15DataExtraction/obj/Debug
+/XT_olk15DataExtraction/obj/x64/Debug

@@ -6,17 +6,15 @@ X-Ways X-Tension to extract mail attachments from information files found in the
 
 This extension is compatible with **X-Ways (x64) v20.3 or higher**.
 
-* **DOWNLOAD THE APP IN [RELEASES](https://github.com/kezzier/XT_olk15DataExtraction/releases)**
+* **DOWNLOAD THE APP IN [RELEASES](https://git/laura.rondelez/xt_olk15dataextraction/-/releases)**
 
 Add the X-Tension in X-Ways:
-  1. In X-Ways, go to X-Tensions (cogwheel)
+  1. In X-Ways, go to X-Tensions (yellow cogwheel)
   2. Click the "+" button
   3. Reference the XT_olk15DataExtraction dll
   4. When prompted for a 'force unload', choose "No"
 
-Add FileSignatures to the GAC_MSIL assemblies.
-
-Add SQLite.Interop.dll, System.Data.SQLite.dll, System.Data.SQLite.EF6.dll, and System.Data.SQLite.Linq.dll to your X-Ways Forensics folder (same folder as the xwforensics exe).
+Add the other dll files to your X-Ways Forensics folder (same folder as the xwforensics exe).
 
 ## Usage
 
@@ -25,7 +23,7 @@ There are two ways to use the X-Tension: by right clicking in the directory brow
 Right click:
 1. Select the files you want to check
 2. Right click
-3. 'Run X-Tensions...' (cogwheel)
+3. 'Run X-Tensions...' (yellow cogwheel)
 4. Select the XT_olk15DataExtraction dll and click OK or press Enter
 
 Refine Volume Snapshot:
